@@ -1,3 +1,4 @@
+var colors = require('colors');
 const { Lingo } = require('./lingo-game')
 
 const wordLength = 6

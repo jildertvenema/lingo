@@ -2,7 +2,6 @@
 const words = require('./words.json')
 const alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('')
 const getRandomFromArray = xs => xs[Math.floor(Math.random() * xs.length)]
-var colors = require('colors');
 
 class Lingo {
   constructor(wordLength) {
