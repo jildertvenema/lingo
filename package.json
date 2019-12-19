@@ -1,6 +1,6 @@
 {
   "name": "lingo-app",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "bin": {
     "lingo-app": "index.js"
   },
