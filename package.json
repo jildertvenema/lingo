@@ -1,12 +1,32 @@
 {
   "name": "lingo-app",
-  "version": "1.0.0",
-  "private": true,
-  "bin": "index.js",
+  "version": "1.0.1",
+  "bin": {
+    "lingo-app": "index.js"
+  },
   "dependencies": {
     "colors": "^1.4.0"
   },
   "scripts": {
     "start": "node index.js"
-  }
+  },
+  "description": "a simple lingo app in node",
+  "main": "lingo-game.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jildertvenema/lingo.git"
+  },
+  "keywords": [
+    "lingo",
+    "app",
+    "node",
+    "package"
+  ],
+  "author": "Jildert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jildertvenema/lingo/issues"
+  },
+  "homepage": "https://github.com/jildertvenema/lingo#readme"
 }
