@@ -3,7 +3,7 @@ simple lingo app in node.js
 
 
 usage:
-
+```
 const { Lingo } = require('lingo-app')
 
 const wordLength = 6
@@ -33,4 +33,4 @@ if (preview.result){
 }
 
 console.log(lingo.preview.join(''))
-
+```
