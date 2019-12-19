@@ -4,6 +4,7 @@ simple lingo app in node.js
 
 usage:
 ```
+var colors = require('colors'); // for printing strings in colors
 const { Lingo } = require('lingo-app')
 
 const wordLength = 6
